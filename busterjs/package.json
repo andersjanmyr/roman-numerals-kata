@@ -1,0 +1,18 @@
+{
+  "name": "busterjs-kata",
+  "version": "0.0.0",
+  "description": "Roman numerals kata in Javascript and Buster.js",
+  "main": "roman-numerals.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/bin/buster test"
+  },
+  "repository": "",
+  "author": "Anders Janmyr",
+  "license": "BSD",
+  "devDependencies": {
+    "buster": "~0.6.12"
+  }
+}
