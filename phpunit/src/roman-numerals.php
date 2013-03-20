@@ -10,10 +10,8 @@ function decimalToRoman($number)
 
     $roman = "";
     $count = strlen($numberAsString);
-//    echo("count is $count.\n");
     for ($posR = 0; $posR < $count; $posR++) {
         $posL = $count - 1 - $posR;
-//        echo ("$numberAsString: $numberAsString{$posL} at $posL from left $posR from right.\n");
         $romanDigit = digitToRoman($numberAsString{$posL}, $posR);
         $roman = $romanDigit.$roman;
     }
