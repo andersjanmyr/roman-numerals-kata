@@ -6,6 +6,8 @@
  */
 function decimalToRoman($number)
 {
+  if ($number == 0)
+    return '';
   if ($number == 1)
     return 'I';
 
