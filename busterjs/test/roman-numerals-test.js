@@ -23,13 +23,31 @@ buster.testCase('romanToDecimal', {
     'returns 1 for I': function () {
         assert.equals(romanToDecimal('I'), 1);
     },
+    'returns 4 for IV': function () {
+        assert.equals(romanToDecimal('IV'), 4);
+    },
     'returns 5 for V': function () {
         assert.equals(romanToDecimal('V'), 5);
+    },
+    'returns 8 for VIII': function () {
+        assert.equals(romanToDecimal('VIII'), 8);
+    },
+    'returns 9 for IX': function () {
+        assert.equals(romanToDecimal('IX'), 9);
+    },
+    'returns 10 for X': function () {
+        assert.equals(romanToDecimal('X'), 10);
+    },
+    'returns 40 for XL': function () {
+        assert.equals(romanToDecimal('XL'), 40);
     },
     'returns 50 for L': function () {
         assert.equals(romanToDecimal('L'), 50);
     },
-    'returns 4 for IV': function () {
-        assert.equals(romanToDecimal('IV'), 4);
+    'returns 256 for CCLVI': function () {
+        assert.equals(romanToDecimal('CCLVI'), 256);
+    },
+    'returns 3994 for MMMCMXCIV': function () {
+        assert.equals(romanToDecimal('MMMCMXCIV'), 3994);
     }
 });
