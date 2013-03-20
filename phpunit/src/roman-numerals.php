@@ -9,11 +9,10 @@ function decimalToRoman($number)
     $numberAsString = strval($number);
 
     $roman = "";
-    $count = strlen($numberAsString);
-    for ($posR = 0; $posR < $count; $posR++) {
-        $posL = $count - 1 - $posR;
-        $romanDigit = digitToRoman($numberAsString{$posL}, $posR);
-        $roman = $romanDigit.$roman;
+    $topIndex = strlen($numberAsString) - 1;
+    for ($i = 0; $i <= $topIndex; $i++) {
+        $romanDigit = digitToRoman($numberAsString{$i}, $topIndex - $i);
+        $roman .= $romanDigit;
     }
 
     return $roman;
