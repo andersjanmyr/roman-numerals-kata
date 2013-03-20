@@ -32,7 +32,13 @@ function digitToRoman($digit, $positionFromRight)
 
 function powersOfTen()
 {
-  $romanLiterals = array('I', 'V', 'X', 'L', 'C', 'D', 'M', 'V̄', 'X̄');
+  $romanLiterals = array(
+    'I', 'V',
+    'X', 'L',
+    'C', 'D',
+    'M', 'V̄',
+    'X̄'
+  );
 
   $table = array();
   for ($pt = 0; $pt < 4; $pt++) {
