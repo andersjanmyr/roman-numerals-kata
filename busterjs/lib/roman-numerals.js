@@ -1,4 +1,4 @@
-function decimalToRoman(number) {
+function romanToDecimal(number) {
 }
 
-module.exports = decimalToRoman;
+module.exports = romanToDecimal;

@@ -3,7 +3,7 @@
  * http://docs.busterjs.org/en/latest/
  */
 var buster = require('buster');
-var decimalToRoman = require('../lib/roman-numerals');
+var romanToDecimal = require('../lib/roman-numerals');
 
 /*
 If you want to use spec style syntax:
@@ -16,8 +16,8 @@ it can be enabled with
 buster.spec.expose();
 */
 
-buster.testCase('decimalToRoman', {
-    'returns I for 1': function () {
-        assert.equals(decimalToRoman(1), 'I');
+buster.testCase('romanToDecimal', {
+    'returns 0 for empty string': function () {
+        assert.equals(romanToDecimal(''), 0);
     }
 });
