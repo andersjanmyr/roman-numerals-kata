@@ -28,5 +28,15 @@ class RomanNumeralsTest extends PHPUnit_Framework_TestCase
         $this->assertEquals($digits[$i], $roman);
       }
     }
+
+    public function test11through19()
+    {
+      $digits = array('X', 'XI', 'XII', 'XIII', 'XIV', 'XV', 'XVI', 'XVII', 'XVIII', 'XIX');
+      for ($i = 0; $i < count($digits); $i++) {
+        $roman = decimalToRoman(10 + $i);
+        $this->assertEquals($digits[$i], $roman);
+      }
+
+    }
 }
 ?>
