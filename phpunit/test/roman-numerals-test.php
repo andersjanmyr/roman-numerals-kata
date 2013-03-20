@@ -25,5 +25,11 @@ class RomanNumeralsTest extends PHPUnit_Framework_TestCase
       $roman = decimalToRoman(2);
       $this->assertEquals('II', $roman);
     }
+
+    public function test3ReturnsIII()
+    {
+      $roman = decimalToRoman(2);
+      $this->assertEquals('III', $roman);
+    }
 }
 ?>
