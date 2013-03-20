@@ -7,7 +7,7 @@
 function decimalToRoman($number)
 {
   $digits = array('', 'I', 'II');
-  if (count($digits) >= $number)
+  if (count($digits) > $number)
     return $digits[$number];
 
   throw new Exception('Unsupported Number: '.$number);
