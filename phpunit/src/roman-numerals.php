@@ -9,6 +9,6 @@ function decimalToRoman($number)
   if ($number == 1)
     return 'I';
 
-  throw new Exception('Unsupport Number');
+  throw new Exception('Unsupported Number: '.$number);
 }
 ?>
