@@ -36,7 +36,7 @@ function digitToRoman($digit, $positionFromRight)
             return $digits1[$digit];
     }
 
-    throw new Exception('Unsupported Digit: ' . $digit);
+    throw new Exception("Unsupported Digit at position $positionFromRight: " . $digit);
 
 
 }
