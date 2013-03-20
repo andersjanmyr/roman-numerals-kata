@@ -27,12 +27,10 @@ function digitToRoman($digit, $positionFromRight)
         array('', 'C', 'CC', 'CCC', 'CD', 'D', 'DC', 'DCC', 'DCCC', 'CM')
       );
 
+    if ($positionFromRight + 1 > count($digits))
+      throw new Exception("Unsupported Digit at position $positionFromRight: " . $digit);
+
     $arr = $digits[$positionFromRight];
-    if ($arr)
-      return $arr[$digit];
-
-    throw new Exception("Unsupported Digit at position $positionFromRight: " . $digit);
-
-
+    return $arr[$digit];
 }
 ?>

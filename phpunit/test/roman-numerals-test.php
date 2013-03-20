@@ -72,5 +72,10 @@ class RomanNumeralsTest extends PHPUnit_Framework_TestCase
         $roman = decimalToRoman(100);
         $this->assertEquals('C', $roman);
     }
+    public function test3994()
+    {
+        $roman = decimalToRoman(3994);
+        $this->assertEquals('MMMCMXCIV', $roman);
+    }
 }
 ?>
