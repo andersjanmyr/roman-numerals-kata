@@ -25,7 +25,7 @@ function digitToRoman($digit, $positionFromRight)
         array('', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX'),
         array('', 'X', 'XX', 'XXX', 'XL', 'L', 'LX', 'LXX', 'LXXX', 'XC'),
         array('', 'C', 'CC', 'CCC', 'CD', 'D', 'DC', 'DCC', 'DCCC', 'CM'),
-        array('', 'M', 'MM', 'MMM', 'MÜ', 'Ü', 'ÜM', 'ÜMM', 'ÜMMM', 'Mx̄')
+        array('', 'M', 'MM', 'MMM', 'MV̄', 'V̄', 'V̄M', 'V̄MM', 'V̄MMM', 'MX̄')
       );
 
     if ($positionFromRight + 1 > count($digits))

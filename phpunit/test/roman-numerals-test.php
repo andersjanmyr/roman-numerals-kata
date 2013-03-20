@@ -90,17 +90,17 @@ class RomanNumeralsTest extends PHPUnit_Framework_TestCase
     public function test9000()
     {
         $roman = decimalToRoman(9000);
-        $this->assertEquals('Mx̄', $roman);
+        $this->assertEquals('MX̄', $roman);
     }
     public function test9900()
     {
         $roman = decimalToRoman(9900);
-        $this->assertEquals('Mx̄CM', $roman);
+        $this->assertEquals('MX̄CM', $roman);
     }
     public function test9999()
     {
         $roman = decimalToRoman(9999);
-        $this->assertEquals('Mx̄CMXCIX', $roman);
+        $this->assertEquals('MX̄CMXCIX', $roman);
     }
 }
 ?>
