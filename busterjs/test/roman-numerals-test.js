@@ -22,5 +22,11 @@ buster.testCase('romanToDecimal', {
     },
     'returns 1 for I': function () {
         assert.equals(romanToDecimal('I'), 1);
+    },
+    'returns 5 for V': function () {
+        assert.equals(romanToDecimal('V'), 5);
+    },
+    'returns 4 for IV': function () {
+        assert.equals(romanToDecimal('IV'), 4);
     }
 });
