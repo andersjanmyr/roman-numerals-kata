@@ -6,7 +6,7 @@
  */
 function decimalToRoman($number)
 {
-  $digits = array('', 'I', 'II', 'III');
+  $digits = array('', 'I', 'II', 'III', 'IV');
   if (count($digits) > $number)
     return $digits[$number];
 
