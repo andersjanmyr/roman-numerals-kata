@@ -20,22 +20,13 @@ class RomanNumeralsTest extends PHPUnit_Framework_TestCase
       $this->assertEquals('I', $roman);
     }
 
-    public function test2ReturnsII()
+    public function testSingleDigits()
     {
-      $roman = decimalToRoman(2);
-      $this->assertEquals('II', $roman);
-    }
-
-    public function test3ReturnsIII()
-    {
-      $roman = decimalToRoman(3);
-      $this->assertEquals('III', $roman);
-    }
-
-    public function test4ReturnsIV()
-    {
-      $roman = decimalToRoman(4);
-      $this->assertEquals('IV', $roman);
+      $digits = array('', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VII', 'IX');
+      for ($i = 0; $i < 10; $i++) {
+        $roman = decimalToRoman($i);
+        $this->assertEquals($digits[$i], $roman);
+      }
     }
 }
 ?>
