@@ -24,17 +24,15 @@ function decimalToRoman($number)
 
 function digitToRoman($digit, $positionFromRight)
 {
-    if ($positionFromRight == 0) {
-        $digits0 = array('', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX');
-        if (count($digits0) > $digit)
-            return $digits0[$digit];
-    }
+    $digits = array(
+        array('', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX'),
+        array('', 'X', 'XX', 'XXX', 'XL', 'L', 'LX', 'LXX', 'LXXX', 'XC'),
+        array('', 'C', 'CC', 'CCC', 'CD', 'D', 'DC', 'DCC', 'DCCC', 'CM')
+      );
 
-    if ($positionFromRight == 1) {
-        $digits1 = array('', 'X', 'XX', 'XXX', 'XL', 'L', 'LX', 'LXX', 'LXXX', 'XC');
-        if (count($digits1) > $digit)
-            return $digits1[$digit];
-    }
+    $arr = $digits[$positionFromRight];
+    if ($arr)
+      return $arr[$digit];
 
     throw new Exception("Unsupported Digit at position $positionFromRight: " . $digit);
 
