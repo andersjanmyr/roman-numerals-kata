@@ -37,11 +37,16 @@ function powersOfTen()
     'X', 'L',
     'C', 'D',
     'M', 'V̄',
-    'X̄'
+    'X̄', 'V̄',
+    'X̄', 'L̄',
+    'C̄', 'D̄',
+    'M̄', 'V̄̄',
+    'X̄̄'
   );
 
   $table = array();
-  for ($pt = 0; $pt < 4; $pt++) {
+  $tableSize = (count($romanLiterals) - 1) / 2;
+  for ($pt = 0; $pt < $tableSize; $pt++) {
     $first = $pt*2;
     $one = $romanLiterals[$first];
     $five = $romanLiterals[$first+1];

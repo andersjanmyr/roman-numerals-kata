@@ -102,5 +102,11 @@ class RomanNumeralsTest extends PHPUnit_Framework_TestCase
         $roman = decimalToRoman(9999);
         $this->assertEquals('MX̄CMXCIX', $roman);
     }
+
+    public function testBloodyLarge()
+    {
+        $roman = decimalToRoman(49949999);
+        $this->assertEquals('M̄V̄̄C̄M̄X̄C̄X̄V̄MX̄CMXCIX', $roman);
+    }
 }
 ?>
