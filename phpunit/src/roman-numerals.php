@@ -6,10 +6,9 @@
  */
 function decimalToRoman($number)
 {
-  if ($number == 0)
-    return '';
-  if ($number == 1)
-    return 'I';
+  $digits = array('', 'I', 'II');
+  if (count($digits) >= $number)
+    return $digits[$number];
 
   throw new Exception('Unsupported Number: '.$number);
 }
