@@ -22,7 +22,7 @@ class RomanNumeralsTest extends PHPUnit_Framework_TestCase
 
     public function testSingleDigits()
     {
-      $digits = array('', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VII', 'IX');
+      $digits = array('', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX');
       for ($i = 0; $i < 10; $i++) {
         $roman = decimalToRoman($i);
         $this->assertEquals($digits[$i], $roman);
