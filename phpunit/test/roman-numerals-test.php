@@ -8,6 +8,12 @@ require_once(dirname(__FILE__)) . '/../src/roman-numerals.php';
  */
 class RomanNumeralsTest extends PHPUnit_Framework_TestCase
 {
+    public function test0ReturnsEmptyString()
+    {
+      $roman = decimalToRoman(0);
+      $this->assertEquals('', $roman);
+    }
+
     public function test1ReturnsI()
     {
       $roman = decimalToRoman(1);
