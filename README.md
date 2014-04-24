@@ -50,8 +50,12 @@ tests.
 MiniTest is a small Ruby test framework that is built into Ruby 1.9+.
 It supports both assert and spec style tests.
 
-## C, homegrown :)
+## C, Homegrown :)
 
 It is easy to write a simple test framework.
+
+## Lua, Busted
+
+Busted is a BDD style framework that uses assertions.
 
 
