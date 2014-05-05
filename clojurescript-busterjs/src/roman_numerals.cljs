@@ -1,5 +1,7 @@
 (ns roman-numerals)
 
+(enable-console-print!)
+
 (defn ^:export decimal-to-roman [d]
   (str d))
 
