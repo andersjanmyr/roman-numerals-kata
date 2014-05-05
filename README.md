@@ -39,6 +39,11 @@ BusterJs is a nice framework, similar to Mocha. It supports both assert and
 spec style tests.
 
 
+## ClojureScript, Busterjs
+
+Use Busterjs, but from a higher-level language than Javascript.
+
+
 ## PHP, PHPUnit
 
 PHPUnit is a test framework similar to JUnit. It only supports assert style
