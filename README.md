@@ -26,7 +26,7 @@ directories.
     100  = C
     500  = D
     1000 = M
-    4994 = MMMMCMXCIV
+    3994 = MMMCMXCIV
 
 More information about roman numerals can be found here:
 http://www.novaroma.org/via_romana/numbers.html
