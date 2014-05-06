@@ -39,6 +39,11 @@ BusterJs is a nice framework, similar to Mocha. It supports both assert and
 spec style tests.
 
 
+## ClojureScript, Busterjs
+
+Use Busterjs, but from a higher-level language than Javascript.
+
+
 ## PHP, PHPUnit
 
 PHPUnit is a test framework similar to JUnit. It only supports assert style
@@ -58,4 +63,9 @@ It is easy to write a simple test framework.
 
 Busted is a BDD style framework that uses assertions.
 
+## Clojure, Midje
 
+[Midje](https://github.com/marick/Midje) supports top-down as well as
+bottom-up testing, encourages readable tests, supports a balance between
+abstraction and concreteness, and tries to be gracious in its treatment
+of the people who use it.
