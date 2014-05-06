@@ -1,4 +1,6 @@
 node_modules/
 vendor/
+vim/.vim-flavor/
+vim/VimFlavor.lock
 
 .idea/
