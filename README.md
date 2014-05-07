@@ -69,3 +69,11 @@ Busted is a BDD style framework that uses assertions.
 bottom-up testing, encourages readable tests, supports a balance between
 abstraction and concreteness, and tries to be gracious in its treatment
 of the people who use it.
+
+## VimScript, VSpec
+
+The language for real script-kids.
+
+Busted is a BDD style framework that uses assertions.
+
+
