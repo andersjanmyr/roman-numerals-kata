@@ -8,10 +8,10 @@ function! DecimalToRoman(num)
   return thousand[a:num/1000] . hundred[(a:num/100)%10] . ten[(a:num/10)%10] . one[a:num%10]
 endfunction
 
-function WordUnderCursorToRoman()
+function! WordUnderCursorToRoman()
     let wordUnderCursor = expand("<cword>")
     let roman = DecimalToRoman(wordUnderCursor)
-    normal bdw
-    put! = roman
+    normal diw
+    put = roman
 endfunction
 
