@@ -1,0 +1,19 @@
+{
+  "name": "busterjs-clojurescript-kata",
+  "version": "0.0.0",
+  "description": "Roman numerals kata in ClojureScript and Buster.js",
+  "main": "lib/roman-numerals.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/buster test",
+    "watch": "./node_modules/.bin/buster autotest"
+  },
+  "repository": "",
+  "author": "Ulrik Sandberg",
+  "license": "BSD",
+  "devDependencies": {
+    "buster": "~0.6.12"
+  }
+}

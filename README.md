@@ -26,7 +26,7 @@ directories.
     100  = C
     500  = D
     1000 = M
-    4994 = MMMMCMXCIV
+    3994 = MMMCMXCIV
 
 More information about roman numerals can be found here:
 http://www.novaroma.org/via_romana/numbers.html
@@ -39,6 +39,11 @@ BusterJs is a nice framework, similar to Mocha. It supports both assert and
 spec style tests.
 
 
+## ClojureScript, Busterjs
+
+Use Busterjs, but from a higher-level language than Javascript.
+
+
 ## PHP, PHPUnit
 
 PHPUnit is a test framework similar to JUnit. It only supports assert style
@@ -49,5 +54,26 @@ tests.
 
 MiniTest is a small Ruby test framework that is built into Ruby 1.9+.
 It supports both assert and spec style tests.
+
+## C, Homegrown :)
+
+It is easy to write a simple test framework.
+
+## Lua, Busted
+
+Busted is a BDD style framework that uses assertions.
+
+## Clojure, Midje
+
+[Midje](https://github.com/marick/Midje) supports top-down as well as
+bottom-up testing, encourages readable tests, supports a balance between
+abstraction and concreteness, and tries to be gracious in its treatment
+of the people who use it.
+
+## VimScript, VSpec
+
+The language for real script-kids.
+
+Busted is a BDD style framework that uses assertions.
 
 

@@ -3,13 +3,14 @@
 ## Installation
 
 * Install Ruby, version 2.0 or 2.1
+* Run `bundle install`
 
 ## Running
 
-* Run tests with `ruby roman-numerals-test.rb`
+* rake
 
 ## Files
 
-* roman-numerals.rb
-* roman-numerals-test.rb
+* roman-numerals.vim
+* t/roman-numerals-test.vim
 

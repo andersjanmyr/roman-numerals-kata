@@ -5,6 +5,9 @@
 var buster = require('buster');
 var romanToDecimal = require('../lib/roman-numerals');
 
+/* Shortcut to avoid typing "buster." at every assert. */
+var assert = buster.assert
+
 /*
  If you want to use spec style syntax:
  describe("My thing", function () {

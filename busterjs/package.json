@@ -7,13 +7,13 @@
     "test": "test"
   },
   "scripts": {
-    "test": "./node_modules/.bin/buster test",
-    "watch": "./node_modules/.bin/buster autotest"
+    "test": "./node_modules/.bin/buster-test",
+    "watch": "./node_modules/.bin/buster-autotest"
   },
   "repository": "",
   "author": "Anders Janmyr",
   "license": "BSD",
   "devDependencies": {
-    "buster": "~0.6.12"
+    "buster": ""
   }
 }
