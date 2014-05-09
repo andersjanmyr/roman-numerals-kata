@@ -5,6 +5,9 @@ describe 'DecimalToRoman'
     Expect DecimalToRoman(1) == 'I'
   end
 
+  it 'returns II for 2'
+    Expect DecimalToRoman(2) == 'II'
+  end
 end
 
 
