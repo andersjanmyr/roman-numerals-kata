@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2B71E3EC-75C3-454E-BDE5-664FF673C166</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Roman_Numerals</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7274FD88-833A-46F9-A82D-F0D54E0C7DE2</key>
+		<string>https://github.com/andersjanmyr/roman-numerals-kata.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>objc/Roman_Numerals/Roman_Numerals.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7274FD88-833A-46F9-A82D-F0D54E0C7DE2</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/andersjanmyr/roman-numerals-kata.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7274FD88-833A-46F9-A82D-F0D54E0C7DE2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7274FD88-833A-46F9-A82D-F0D54E0C7DE2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>roman-numerals-kata</string>
+		</dict>
+	</array>
+</dict>
+</plist>
